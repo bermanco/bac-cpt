@@ -14,6 +14,8 @@ function bac_cpt_load_files(){
 
 	$files = array(
 		'setup/post-types.php',
+		'setup/custom-fields.php',
+		'setup/posts-to-posts.php',
 		'setup/taxonomies.php',
 	);
 
