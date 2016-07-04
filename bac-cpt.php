@@ -10,6 +10,10 @@
  * @package Bac-cpt
  */
 
+if (!class_exists('Timber\Timber')){
+	die("Timber is required for this plugin to work properly.");
+}
+
 function bac_cpt_load_files(){
 
 	$files = array(
