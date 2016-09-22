@@ -17,6 +17,7 @@ if (!class_exists('Timber\Timber')){
 function bac_cpt_load_files(){
 
 	$files = array(
+		'setup/admin.php',
 		'setup/post-types.php',
 		'setup/custom-fields.php',
 		'setup/posts-to-posts.php',
