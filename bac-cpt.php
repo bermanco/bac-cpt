@@ -23,6 +23,7 @@ function bac_cpt_load_files(){
 		'setup/custom-fields.php',
 		'setup/posts-to-posts.php',
 		'setup/taxonomies.php',
+		'setup/site-options.php',
 	);
 
 	if ($files) {
