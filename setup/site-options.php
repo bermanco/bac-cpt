@@ -39,8 +39,12 @@ class BacSiteOptions {
 			)
 		);
 
-		// create the options page
-		new Cmb2_Metatabs_Options( $args );
+		if (class_exists('Cmb2_Metatabs_Options')) {
+			// create the options page
+			new Cmb2_Metatabs_Options( $args );
+		} else {
+			throw new \Exception('Please install the Cmb2_Metatabs_Options module to use site options.');
+		}
 
 	}
 
