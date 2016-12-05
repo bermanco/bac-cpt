@@ -6,7 +6,7 @@
  * Taxonomy Core (https://github.com/WebDevStudios/Taxonomy_Core) is assumed to be loaded.
  */
 
-// $site_department = register_via_taxonomy_code(
+// $site_department = register_via_taxonomy_core(
 // 	array(
 // 		'Department', // Singular Name
 // 		'Departments', // Plural Name
@@ -14,7 +14,7 @@
 // 	),
 // 	array(
 // 		'description' => 'This is a department made up of people',
-// 		'hierarchical' => true // "true" for category-like interface, "false" for tag-link interface,
+// 		'hierarchical' => true, // "true" for category-like interface, "false" for tag-link interface,
 // 		'show_ui' => true,
 // 		'show_admin_column' => false,
 // 		'query_var' => true
