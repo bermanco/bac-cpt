@@ -139,7 +139,7 @@ class BacSiteOptions {
 		));
 		$cmb->add_field( array(
 			'id' => $box_key . '_twitter',
-			'type' => 'text',
+			'type' => 'text_url',
 			'name' => 'Twitter Profile URL'
 		));
 		$cmb->add_field( array(
